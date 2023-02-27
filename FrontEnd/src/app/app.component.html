@@ -1,0 +1,4 @@
+<ng-container>
+  <h5>Basic</h5>
+  <p-fileUpload mode="advanced" name="files[]" url="{{urlProductosPath}}" accept="image/*"  (onUpload)="makeJson($event)" chooseLabel="Subir" [multiple]="true"></p-fileUpload>
+</ng-container>
